@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: rabbitmq
-          image: rabbitmq:3.10-rc-management-alpine
+          image: rabbitmq:3-management
           resources:
             limits:
               cpu: 100m
