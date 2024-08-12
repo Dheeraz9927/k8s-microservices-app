@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: products-api
-          image: arjanaswal/node-kubernetes-products-service:latest
+          image: dk9927/products:latest
           resources:
             limits:
               cpu: 100m

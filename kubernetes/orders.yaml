@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: orders-api
-          image: arjanaswal/node-kubernetes-orders-service:latest
+          image: dk9927/orders:latest
           resources:
             limits:
               cpu: 100m

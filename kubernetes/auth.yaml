@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: auth-api
-          image: arjanaswal/node-kubernetes-auth-service:latest
+          image: dk9927/auth:latest
           resources:
             limits:
               cpu: 100m
